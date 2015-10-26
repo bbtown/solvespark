@@ -36,6 +36,13 @@ h1 {
   font-size: 30px;
   font-weight: 200;
 }
+h2 {
+
+font-size: 30px;
+font-weight: 200;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
 .navy-line {
   width: 60px;
   height: 1px;
@@ -266,14 +273,14 @@ h1 {
   padding-top: 60px;
 }
 .services h2 {
-  font-size: 20px;
+  /font-size: 20px;
   letter-spacing: -1px;
 
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
-  font-weight: 600;
-  text-transform: uppercase;
+  //font-weight: 600;
+ // text-transform: uppercase;
 }
 .features-block {
   margin-top: 40px;
