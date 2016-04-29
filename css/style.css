@@ -48,7 +48,7 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 .navy-line {
   width: 60px;
   height: 1px;
-  margin: 60px auto 0;
+  margin: 30px auto 0;
   border-bottom: 2px solid #1ab394;
 }
 .navy-bg {
@@ -407,8 +407,8 @@ li.pricing-title {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: none;
+  border-color: #ffffff;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
