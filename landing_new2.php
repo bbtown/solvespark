@@ -226,29 +226,6 @@ $.ajax({
               $retrieve_id = $doc[id];
           
                 echo"<div class=\"col-md-4\">";
-                    echo"<div class=\"ibox\">";
-                        echo"<div class=\"ibox-content product-box\">";
-
-                            echo"<div class=\"product-imitation\">";
-                                echo"[ Icon/Image ]";
-                            echo"</div>";
-                            echo"<div class=\"product-desc\">";
-                                echo"<span class=\"product-price\">";
-                                    echo"Category";
-                                echo"</span>";
-                                echo"<small class=\"text-muted\">Category > subcategory</small>";
-                                echo"<a href=\"#\" class=\"product-name\"> Title</a>";
-                                echo"<div class=\"small m-t-xs\">";
-                                    echo"Expanded description";
-                                echo"</div>";
-                                echo"<small class=\"text-muted\">100 views</small>";
-                                echo"<div class=\"m-t text-right\">";
-
-                                    echo"<a href=\"#\" class=\"btn btn-xs btn-outline btn-primary\">Info <i class=\"fa fa-long-arrow-right\"></i> </a>";
-                                echo"</div>";
-                            echo"</div>";
-                        echo"</div>";
-                    echo"</div>";
                 echo"</div>";
                 }  ?>
                 <div class="col-md-4">
