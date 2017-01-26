@@ -78,7 +78,7 @@ $.ajax({
                         <th>Description</th>
                         <th>Category</th>
                         <th>Tags</th>
-                        <th data-hide="phone,tablet">URL</th>
+                        <th data-hide="phone,tablet">Article</th>
                         <th>Location</th>
                         <th>Awareness</th>
                     </tr>
@@ -102,8 +102,8 @@ $.ajax({
 			  ";
                     echo "<td>".$doc['IdeaCategory']."</td>";
                     echo "<td>".$doc['Tags']."</td>";
-                    echo "<td>".$doc['URL']."</td>";
-                    echo "<td>".$doc['GeographicLocation']." ".$doc['SpecificLocation']."</td>";
+                    echo "<td><a href=\"".$doc['URL']."\">".$doc['URL']."</a></td>";
+		    echo "<td>".$doc['GeographicLocation']." ".$doc['SpecificLocation']."</td>";
                     echo "<td>Coming soon</td>";
 			echo "</td></tr>";
        }            
