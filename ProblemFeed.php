@@ -105,7 +105,7 @@ $.ajax({
 			  ";
                     echo "<td>".$doc['ProblemCategory']."</td>";
                     echo "<td>".$doc['Tags']."</td>";
-                    echo "<td>".$doc['URL']."</td>";
+                    echo "<td><a href=\"".$doc['URL']."\">".$doc['URL']"</a></td>";
                     echo "<td>".$doc['AffectedDescription']."</td>";
                     echo "<td>".$doc['AffectedNumber']."</td>";
                     echo "<td>".$doc['GeographicLocation']." ".$doc['SpecificLocation']."</td>";
