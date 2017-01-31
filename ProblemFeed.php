@@ -17,7 +17,7 @@
     <link href="css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
 
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style3.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- FooTable -->
     <link href="css/plugins/footable/footable.core.css" rel="stylesheet">

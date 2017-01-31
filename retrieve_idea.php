@@ -27,7 +27,7 @@
     <link href="css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
 
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet">
 
     <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
 
@@ -78,7 +78,7 @@ $.ajax({
 
                               <div class="row"> 
                                     <div class="col-sm-9">
-<h1>Problem Description</h1>
+<h1>Idea Description</h1>
 
 <?php
 
