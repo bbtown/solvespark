@@ -224,7 +224,7 @@ echo "<h4>Tags: ".$doc['Tags']."</h4>";
                 <div class="ibox float-e-margins">
 -->
 
-</div></div></div></div></div></div></div>
+</div></div></div></div>
       <div class="row">
 
 <!--   BEGiN FORM STUFF -->
