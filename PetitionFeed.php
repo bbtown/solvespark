@@ -92,7 +92,7 @@ $.ajax({
                     echo "<td>".$doc['body']."<br>";
 	            echo "<form class=\"form-horizontal\" method=\"post\" id=\"retrieve\" action=\"retrieve_petition.php\">
 					  	 			         <br/><br/><br/>
-												        <button input type=\"submit\" class=\"btn btn-sm btn-primary m-t-n-xs\" name='petition_identifier' value=\"$retrieve_id\" style=\"width:40%\" type=\"button\"><strong>View/Edit Details</strong></button>
+												        <button input type=\"submit\" class=\"btn btn-sm btn-green m-t-n-xs\" name='petition_identifier' value=\"$retrieve_id\" type=\"button\"><strong>View/Edit Details</strong></button>
 														      		        </form>
 																	    ";
                     echo "<td>".$doc['issues'][0]['name']."</td>";
