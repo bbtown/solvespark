@@ -24,19 +24,19 @@
     <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
 
 <script>
-    function retrieve_id() {
-var retrieve_id = $('#retrieve').val();
-var serialData = $('#retrieve').serialize();
+function retrieve_id() {
+   var retrieve_id = $('#retrieve').val();
+   var serialData = $('#retrieve').serialize();
 
-$.ajax({
-    url:'./retrieve_problem.php',
-    type: 'POST',
-    data: serialData,
-    success: function(data) {
-      alert(data);
+   $.ajax({
+      url:'./retrieve_problem.php',
+      type: 'POST',
+      data: serialData,
+      success: function(data) {
+        alert(data);
+       }
+   });
 }
-});
-
 </script>
 
 </head>
@@ -175,7 +175,7 @@ $.ajax({
     </script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
+    <!-- script src="js/inspinia.js"></script> -->
     <script src="js/plugins/pace/pace.min.js"></script>
 
     <!-- Page-Level Scripts -->
