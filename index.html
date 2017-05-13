@@ -63,6 +63,14 @@ mixpanel.init("0cde89a4e40858e69b40bfdc9bf6a020");</script>
     </div>
         </nav>
 
+<script type="text/javascript">
+    mixpanel.track_links("#page-top a", "click nav link", {
+        "referrer": document.referrer
+    });
+</script>
+
+
+
 
     <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
