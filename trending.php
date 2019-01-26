@@ -194,8 +194,9 @@ $.ajax({
 <?php
 			     require_once __DIR__.'/vendor/autoload.php';
 			     $counter=0;	
-			     $conn = r\connect('34.239.185.58');
-                             $result = r\db("web")->table('problems')->run($conn);
+#			     $conn = r\connect('34.239.185.58');
+$conn = r\connect('18.209.35.238'); 
+                            $result = r\db("web")->table('problems')->run($conn);
                              $count=0;
 			     foreach ($result as $doc) {
                                if(isset($doc['ProblemDescription'])) {
