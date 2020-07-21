@@ -170,7 +170,7 @@ echo "<div class=\"product-imitation\"><i class=\"fa fa-globe big-icon\" style=\
 			    echo "<div style=\"height:80px;\"><small class=\"text-muted\">Tags: ".$doc['Tags']."</small><br/>";
 			    echo "390 Likes<br/></div>";
 			    echo "<div style=\"height:30px;\"> <form class=\"form-horizontal\" method=\"post\" id=\"retrieve\" action=\"retrieve_problem.php\">
-					<button input type=\"submit\" color="blue" class=\"btn btn-primary\" name='problem_identifier' value=\"$retrieve_id\" style=\"width:40%; vertical-align:bottom;\" type=\"button\"><strong>View</strong></button> </form></div>";
+					<button input type=\"submit\" color=\"blue\" class=\"btn btn-primary\" name='problem_identifier' value=\"$retrieve_id\" style=\"width:40%; vertical-align:bottom;\" type=\"button\"><strong>View</strong></button> </form></div>";
 
 				echo "</div></div></div>";
 			    if($count==4){
